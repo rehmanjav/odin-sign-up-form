@@ -1,3 +1,32 @@
+/* button color #596D48
+input borders #E5E7EB
+
+ other variation is the selected input, which should have a blue border
+ and subtle box-shadow. This can be done with the :focus pseudo-class
+ you’ve learned about in an earlier lesson.
+
+ Checking that the password fields match each other requires javascript.
+ Try to implement this if you feel confident, otherwise just validate
+ each field separately. */
+
+ @font-face {
+    font-family: norseBold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+* {
+    font-size: 24px;
+}
+
+.odin-bold {
+    font-family: norseBold;
+    font-size: 15rem;
+}
+
+.odin-logo {
+    height:
+}
+
 body {
     display: flex;
 }

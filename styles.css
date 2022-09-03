@@ -49,6 +49,8 @@ body {
 
 .right {
     width: 60vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .left-top {
@@ -82,8 +84,47 @@ body {
     flex-direction: column;
 }
 
+.form-right {
+    margin-left: 50px;
+}
+
 .left a {
     margin-left: 3px;
     margin-right: 3px;
     color: white;
 }
+
+.right-bottom a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.right-top,
+.right-middle,
+.right-bottom {
+    padding: 50px;
+}
+
+.right-top,
+.right-bottom {
+    background-color: white;
+}
+
+.right-middle {
+    background-color: #f9fafb;
+}
+
+.submit-btn {
+    background-color: #596D48;
+    color: white;
+    border-radius: 10%;
+    padding: 10px 50px;
+}
+
+label {
+    margin-bottom: 3px; 
+    margin-top: 10px;
+}
+
+
+

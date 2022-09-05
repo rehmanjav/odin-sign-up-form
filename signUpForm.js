@@ -6,8 +6,23 @@ function checkPass (e) {
 
     if (pass1 != pass2) {
         console.log("not the same");
+        let pwd1 = document.querySelector(".p1");
+        let pwd2 = document.querySelector(".p2");
+        let errorMsg = document.querySelector(".dont-match");
+
+        pwd1.classList.add("error");
+        pwd2.classList.add("error");
+        errorMsg.style.visibility = "visible";
+
     } else {
         console.log("same");
+        let pwd1 = document.querySelector(".p1");
+        let pwd2 = document.querySelector(".p2");
+        let errorMsg = document.querySelector(".dont-match");
+
+        pwd1.classList.remove("error");
+        pwd2.classList.remove("error");
+        errorMsg.style.visibility = "hidden";
     }
 }
 

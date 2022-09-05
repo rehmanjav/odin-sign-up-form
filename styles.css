@@ -126,5 +126,10 @@ label {
     margin-top: 10px;
 }
 
+.dont-match {
+    color: red;
+    visibility: hidden;
+}
+
 
 
